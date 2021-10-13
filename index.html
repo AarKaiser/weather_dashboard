@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Aar's Weather Forecaster</title>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-dark bg-primary bg-gradient ">
+        <span class="navbar-brand mb-0 h1 mx-auto">Weather Dashboard</span>
+    </nav>
+    <div class = "row">
+        <div id="sidebar" class ="col-3 align-items-center">
+            <p>Search for a City</p>
+            <form>
+                <input type="text" placeholder="Toronto" id ="userInput" autocomplete="off"></input><br>
+                <button id="fetch-button" class="col-4 bg-primary">Search</button>
+            </form>
+            <br>
+            </hr>
+            <ul id = "saved-cities"></ul>
+        </div>
+        <div id="contentTop" class="col-8">
+            <!-- Dynamically generated -->
+            <div id="mainRow" class="row">
+                <h1 id="city-date"></h1><span id="icon"></span>
+                <ul id="weather-data" class ="col-8" list-style="none">
+                </ul>
+            </div>
+            <div id="cardRow">
+                <div id="forecast" ></div>
+                <!-- Cards  -->
+            </div>
+        </div>
+    </div>
+</header>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./assets/js/script.js"></script>   
+</body>
+</html>

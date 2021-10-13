@@ -4,7 +4,7 @@ Contents of this folder are:
 
 1) This README.me file.
 2) An "index.html" and it's associated "assets" folder.
-4) These files are all hosted on a repository and the finished assignment can be accessed directly at "https://aarkaiser.github.io/weather_dashboard" on  a browswer.
+4) These files are all hosted on a repository and the finished assignment can be accessed directly at "https://aarkaiser.github.io/weather_dashboard/" on  a browswer.
 5) The Github repo for the assignment is available at "https://github.com/AarKaiser/weather_dashboard"
 
 Website Mockup:
